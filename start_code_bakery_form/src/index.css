@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightpink;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+
+footer{
+  background-color: #be6875;
+}
+
+.navbar {
+  background-color: #be6875;
+  padding: 0.02px 250px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.nav-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
+  display: left;
+}
+
+
+.nav-links li input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.nav-links li input[type="submit"] {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding-top: 60px; 
+}
+
+
+.cake-left, .cake-right {
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cake-left {
+  left: 0;
+  background-image: url('../public/images/cake-left.jpg'); /* Path to your left cake image */
+}
+
+.cake-right {
+  right: 0;
+  background-image: url('../public/images/cake-right.jpg'); /* Path to your right cake image */
+}
+
+
