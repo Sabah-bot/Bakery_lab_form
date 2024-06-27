@@ -19,7 +19,7 @@ function App() {
       <header>
         <NavBar />
         <title><Title></Title></title>
-        <h1>Welcome to my bakery</h1>
+        <h1>Welcome To The Best Bakery In The UK</h1>
 
       </header>
       <main>

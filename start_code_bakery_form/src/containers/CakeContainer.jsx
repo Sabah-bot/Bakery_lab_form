@@ -15,6 +15,16 @@ const CakeContainer = () => {
         rating: 3
     },
     {
+        "cakeName": "Chocolate Cake",
+        "ingredients": ["chocolate", "eggs", "flour", "butter", "sugar"],
+        "rating": 5
+      },
+      {
+        "cakeName": "Vanilla Cake",
+        "ingredients": ["flour", "sugar", "butter", "eggs", "vanilla extract"],
+        "rating": 4.5
+      },
+    {
         cakeName: "Brownie",
         ingredients: ["chocolate", "eggs", "flour", "butter", "walnuts"],
         rating: 4
