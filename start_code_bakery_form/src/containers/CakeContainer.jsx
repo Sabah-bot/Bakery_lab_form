@@ -37,7 +37,9 @@ const CakeContainer = () => {
         return(
             <>
             <h2>Cakes</h2>
+            <section id="cake-container">
             {cakeComponents}
+            </section>
             <CakeForm addRecipe={addRecipe}/>
             </>
         )

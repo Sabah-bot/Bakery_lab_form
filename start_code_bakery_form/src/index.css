@@ -12,6 +12,8 @@ body {
 
 footer{
   background-color: #be6875;
+  width: 100%; /* Take up the full width of the viewport */
+  height: 20vh; /* Set the height to 20% of the viewport height */
 }
 
 .navbar {
@@ -21,7 +23,7 @@ footer{
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -66,23 +68,20 @@ body {
 }
 
 
-.cake-left, .cake-right {
-  width: 200px; /* Adjust width as needed */
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+#cake-container{
+  display:flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+
+  justify-content: center;
 }
 
-.cake-left {
-  left: 0;
-  background-image: url('../public/images/cake-left.jpg'); /* Path to your left cake image */
+.cake{
+  flex: 0 0 calc(20% - 20px); /* Calculate width with margin */
+
+  width:20%;
+  width: 20%;
+  border-radius: 10px; /* Adjust the radius as per your preference */
+  background-color: #be6875; /* Baby pink color */
+  margin: 10px; /* Optional: Add some margin around each cake */
 }
-
-.cake-right {
-  right: 0;
-  background-image: url('../public/images/cake-right.jpg'); /* Path to your right cake image */
-}
-
-

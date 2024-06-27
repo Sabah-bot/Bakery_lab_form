@@ -26,7 +26,8 @@ function App() {
         <RecipeList />
       </main>
       <footer>
-         <CakeForm />
+      <h3>Property of BNTA Bakery™ </h3>
+
           </footer>
     </>
   );
