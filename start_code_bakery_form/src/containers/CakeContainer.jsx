@@ -22,7 +22,7 @@ const CakeContainer = () => {
       {
         "cakeName": "Vanilla Cake",
         "ingredients": ["flour", "sugar", "butter", "eggs", "vanilla extract"],
-        "rating": 4.5
+        "rating": 4
       },
     {
         cakeName: "Brownie",

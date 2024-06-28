@@ -52,9 +52,12 @@ const CakeForm = ({ addRecipe }) => {
         <input
         type = "number"
         name = "rating"
+        min={1}
+        max={5}
         placeholder="Enter a rating"
         value = {rating}
         onChange={(event) => setRating(event.target.value)}
+        
         />
 
         <input type = "submit" value = "Submit"/>

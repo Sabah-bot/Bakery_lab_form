@@ -15,6 +15,8 @@ const Search = ({ onSearch }) => {
         type="text"
         id="search-field"
         value={query}
+        placeholder="Search BNTA cakes"
+
         onChange={(event) => setQuery(event.target.value)}
       />
       <input type="submit"  value="Search" placeholder='Search for cakes, recipies and more!' />
